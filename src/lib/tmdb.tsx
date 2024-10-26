@@ -25,7 +25,7 @@ export const fetchPopularMovies = async (page: number) => {
 // }
 
 // src/lib/tmdb.js
-export const fetchMovieDetails = async (movieId) => {
+export const fetchMovieDetails = async (movieId: string) => {
   const response = await fetch(
     `${BASE_URL}/movie/${movieId}?api_key=${API_KEY}`
   );

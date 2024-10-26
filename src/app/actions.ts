@@ -5,7 +5,6 @@
 import {
   addToWatchlist,
   removeFromWatchlist,
-  getWatchlist,
 } from "@/lib/watchlist";
 
 export async function handleWatchlist(
